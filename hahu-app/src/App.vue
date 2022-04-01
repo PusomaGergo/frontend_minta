@@ -1,14 +1,13 @@
 <template>
-  <open-page></open-page>
+  <router-view></router-view>
 </template>
 
 <script>
-import OpenPage from "./components/OpenPage.vue";
 
 export default {
   name: "App",
   components: {
-    OpenPage,
+    
   },
 };
 </script>
